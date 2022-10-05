@@ -1,0 +1,7 @@
+.place__website {
+  max-width: 456px;
+  max-height: 152px;
+  display: flex;
+  justify-content: end;
+  flex-direction: column;
+}

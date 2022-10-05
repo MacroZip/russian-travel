@@ -1,0 +1,8 @@
+.place {
+  position: relative;
+  max-width: 984px;
+  max-height: 660px;
+  display: grid;
+  box-sizing: border-box;
+  margin-top: 80px;
+}

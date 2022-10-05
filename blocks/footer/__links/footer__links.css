@@ -1,0 +1,5 @@
+.footer__links {
+  display: flex;
+  max-width: 1184px;
+  max-height: 18px;
+}

@@ -1,0 +1,29 @@
+.cover__background {
+  position: relative;
+  width: 1184px;
+  height: 740px;
+  background: url(../../../images/sprint-3-images/cover-trains.jpg) center / cover;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(10, 1fr);
+}
+
+.cover__background:before {
+  content:"";
+  height: 100%;
+  width: 100%;
+  background-color: rgba(42, 44, 47, 1);
+  opacity: 0.3;
+  grid-row: 1/11;
+  grid-column: 1/2;
+}
+.cover__background:hover::before {
+  opacity: 0.8;
+  transition: opacity .2s linear;
+  cursor: pointer;
+  grid-row: 1/11;
+  grid-column: 1/2;
+}
+
+
+
