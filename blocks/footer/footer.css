@@ -2,5 +2,12 @@
   position: relative;
   max-width: 1184px;
   max-height: 18px;
-  margin: 92px 48px 24px 48px;
+  margin: 0 48px 24px 48px;
+}
+
+@media screen and (max-width: 1024px) {
+  .footer {
+    max-width: 928px;
+    max-height: 18px;
+  }
 }

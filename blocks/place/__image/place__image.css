@@ -5,4 +5,13 @@
   grid-row: 2/4;
   grid-column: 1;
   margin-top: 48px;
+  margin-right: 40px;
+}
+
+@media screen and (max-width: 1024px) {
+  .place__image {
+    width: 440px;
+    height: 440px;
+    margin-right: 32px;
+  }
 }

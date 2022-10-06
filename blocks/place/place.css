@@ -5,4 +5,16 @@
   display: grid;
   box-sizing: border-box;
   margin-top: 80px;
+  align-items: end;
+}
+
+.place:nth-child(1) {
+  margin-top: 0px;
+}
+
+@media screen and (max-width: 1024px) {
+  .place {
+    max-width: 928px;
+    max-height: 640px;
+  }
 }
