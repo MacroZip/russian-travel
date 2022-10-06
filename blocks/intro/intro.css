@@ -1,6 +1,16 @@
 .intro {
   position: relative;
+  margin-top: 92px;
+  margin-bottom: 92px;
   max-width: 690px;
   max-height: 429px;
   margin-left: 148px;
+}
+
+@media screen and  (max-width: 1024px) {
+  .intro {
+    max-width: 690px;
+    min-height: 429px;
+    margin-left: 48px;
+  }
 }

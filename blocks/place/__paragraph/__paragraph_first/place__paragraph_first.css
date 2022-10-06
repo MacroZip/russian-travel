@@ -9,3 +9,10 @@
   line-height: 163%;
   color: #FFFFFF;
 }
+
+@media screen and (max-width: 1024px) {
+  .place__paragraph_first {
+    max-width: 456px;
+    max-height: 174px;
+  }
+}

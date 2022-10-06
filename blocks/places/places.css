@@ -3,3 +3,11 @@
   max-height: 3392px;
   margin: auto 148px;
 }
+
+@media screen and (max-width: 1024px) {
+  .places {
+    max-width: 928px;
+    max-height: 3292px;
+    margin: auto 48px;
+  }
+}
