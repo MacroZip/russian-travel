@@ -1,5 +1,28 @@
 .footer__links {
   display: flex;
-  max-width: 1184px;
-  max-height: 18px;
+  width: 1184px;
+  height: 18px;
+}
+
+@media screen and (max-width: 1024px) {
+  .footer__links {
+    width: 928px;
+    height: 18px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .footer__links {
+    width: 720px;
+    height: 18px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .footer__links {
+    width: 186px;
+    height: 310px;
+    flex-direction: column;
+
+  }
 }

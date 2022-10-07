@@ -1,5 +1,6 @@
 .footer__link {
   position: relative;
+  margin-right: 18px;
   font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -7,9 +8,20 @@
   line-height: 18px;
   color: #FFFFFF;
   text-decoration: none;
-  margin-right: 18px;
 }
 
-.footer__link:nth-last-child(-n+1) {
-  margin: auto 0 auto auto;
+.footer__link:nth-child(5) {
+  margin-right: 0;
+}
+
+@media screen and (max-width: 320px) {
+  .footer__link {
+    margin-right: 0px;
+    margin-bottom: 32px;
+    font-size: 24px;
+    line-height: 24px;
+  }
+  .footer__link:nth-child(5) {
+    margin-bottom: 0px;
+  }
 }
