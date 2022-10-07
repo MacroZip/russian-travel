@@ -7,3 +7,11 @@
   line-height: 18px;
   color: #FFFFFF;
 }
+
+@media screen and (max-width: 320px) {
+  .intro__list {
+    width: 288px;
+    height: 90px;
+    font-weight: 700;
+  }
+}
