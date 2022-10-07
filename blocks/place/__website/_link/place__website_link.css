@@ -14,3 +14,18 @@
   transition: opacity .2s linear;
   cursor: pointer;
 }
+
+
+@media screen and (max-width: 768px) {
+  .place__website_link {
+    width: 352px;
+    height: 22px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .place__website_link {
+    width: 288px;
+    height: 22px;
+  }
+}

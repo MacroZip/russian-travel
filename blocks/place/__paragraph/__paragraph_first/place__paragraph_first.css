@@ -1,7 +1,6 @@
 .place__paragraph_first {
   margin: 48px 0 26px 0;
   max-width: 484px;
-  max-height: 145px;
   font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -13,6 +12,21 @@
 @media screen and (max-width: 1024px) {
   .place__paragraph_first {
     max-width: 456px;
-    max-height: 174px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .place__paragraph_first {
+    margin: 48px 0 25px 0;
+    max-width: 352px;
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .place__paragraph_first {
+    margin: 32px 16px 25px;
+    max-width: 288px;
+    font-size: 16px;
   }
 }
