@@ -39,6 +39,6 @@
     max-height: 2724px;
     grid-template-columns: repeat(1, 1fr);
     grid-template-rows: repeat(12, 1fr);
-    gap: 12x;
+    gap: 12px;
   }
 }
