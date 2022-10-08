@@ -1,26 +1,24 @@
 .footer__copyright {
+  margin: auto 0 auto auto;
   position: relative;
-  font-family: 'Inter', sans-serif;
+  font-family: 'Inter', 'Arial', 'Helvetica', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 18px;
   color: #FFFFFF;
   text-decoration: none;
-  margin: auto 0 auto auto;
 }
 
-@media screen and (max-width: 1024px) {
+@media (max-width: 1024px) {
   .footer__copyright {
     margin: auto 0 auto auto;
   }
 }
 
-@media screen and (max-width: 320px) {
+@media (max-width: 705px) {
   .footer__copyright {
-    margin-top: 48px;
-    margin-right: 0px;
-    margin-left: 0px;
+    margin: 48px 0 auto;
     font-size: 14px;
     line-height: 14px;
   }

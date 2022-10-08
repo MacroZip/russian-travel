@@ -1,28 +1,30 @@
 .lead__image {
+  margin: auto auto 8px;
+  display: block;
+  box-sizing: border-box;
   position: relative;
-  width: 984px;
-  height: 615px;
-  background: url(../../../images/sprint-3-images/lead-polka.jpg) center / cover;
-  margin-bottom: 8px;
+  max-width: 984px;
 }
 
-@media screen and  (max-width: 1024px) {
+@media (max-width: 1024px) {
   .lead__image {
     max-width: 928px;
-    max-height: 580px;
+  }
+}
+@media (max-width: 952px) {
+  .lead__image {
+    max-width: 723px;
   }
 }
 
-@media screen and  (max-width: 768px) {
+@media (max-width: 768px) {
   .lead__image {
-    max-width: 768px;
-    max-height: 480px;
-  }
+    max-width: 100%;
+   }
 }
 
-@media screen and  (max-width: 320px) {
+@media (max-width: 320px) {
   .lead__image {
-    max-width: 320px;
-    max-height: 200px;
+    max-width: 100%;
   }
 }

@@ -1,12 +1,16 @@
 .header__logo {
-  width: 176px;
-  height: 52px;
-  background: url(../../../images/sprint-3-images/header-logo.svg) no-repeat left / cover;
+  max-width: 176px;
 }
 
-@media screen and (max-width: 320px) {
+@media (max-width:768px) {
   .header__logo {
-    width: 142px;
-    height: 42px;
+    max-width: 152px;
+  }
+}
+
+@media (max-width: 320px) {
+  .header__logo {
+    max-width: 142px;
+
   }
 }

@@ -1,24 +1,12 @@
 .place__website {
-  max-width: 456px;
-  max-height: 46px;
   display: flex;
-  justify-content: end;
   flex-direction: column;
-}
-
-@media screen and (max-width: 768px) {
-  .place__website {
-    max-width: 352px;
-    max-height: 46px;
-  }
-}
-
-@media screen and (max-width: 320px) {
-  .place__website {
-    margin-left: 16px;
-    max-width: 288px;
-    max-height: 46px;
-    grid-row: 2/3;
-    grid-column: 1/1;
-  }
+  align-self: flex-end;
+  max-width: 456px;
+  font-family: 'Inter', 'Arial', 'Helvetica', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  color: #FFFFFF;
 }
