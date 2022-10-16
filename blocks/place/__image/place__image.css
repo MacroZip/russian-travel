@@ -1,4 +1,43 @@
 .place__image {
-  max-width: 100%;
+  max-width: 460px;
+  max-height: 460px;
   box-sizing: border-box;
+}
+
+@media (max-width: 1024px) {
+  .place__image {
+    max-width: 440px;
+  }
+}
+
+@media (max-width: 917px) {
+  .place__image {
+    max-width: 350px;
+  }
+}
+
+@media (max-width: 768px) {
+  .place__image {
+    max-width: 340px;
+  }
+}
+
+@media (max-width: 767px) {
+  .place__image {
+    margin: auto;
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 404px) {
+  .place__image {
+    max-width: 293px;
+  }
+}
+
+@media (max-width: 320px) {
+  .place__image {
+    margin: 0;
+    max-width: 320px;
+  }
 }

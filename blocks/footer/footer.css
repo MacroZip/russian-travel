@@ -1,4 +1,7 @@
 .footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
   margin: 92px 48px 24px 48px;
   position: relative;
   max-width: 1184px;
@@ -19,21 +22,15 @@
 
 @media (max-width: 705px) {
   .footer {
+    display: block;
     margin: 88px 118px 24px 16px;
     width: 186px;
   }
 }
 
-@media (max-width: 500px) {
-  .footer {
-    margin: 88px 118px 24px 16px;
-    width: 186px;
-  }
-}
 
 @media (max-width: 360px) {
   .footer {
     margin: 0 118px 24px 16px;
-    width: 186px;
   }
 }

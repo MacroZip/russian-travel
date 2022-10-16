@@ -1,9 +1,18 @@
 .cover {
-  margin: 0 auto;
+  margin: 12px auto 0;
   max-width: 1184px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
   font-family: 'Inter', 'Arial', 'Helvetica', sans-serif;
   font-style: normal;
+}
+
+@media (max-width:768px) {
+  .cover {
+    margin: 10px auto 0;
+  }
+}
+
+@media (max-width:320px) {
+  .cover {
+    margin: 16px auto 0;
+  }
 }

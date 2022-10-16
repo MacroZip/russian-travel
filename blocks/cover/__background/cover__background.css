@@ -1,5 +1,8 @@
 .cover__background {
-  display: block;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   max-width: 1184px;
   min-height: 740px;
   background: url(../../../images/sprint-3-images/cover-trains.jpg) center / cover;
@@ -12,7 +15,6 @@
 
 .cover__background::before {
   content: "";
-  display: block;
   height: 100%;
   width: 100%;
   position: absolute;
@@ -31,14 +33,14 @@
 @media (max-width:1024px) {
   .cover__background {
     max-width:  1024px;
-    min-height: 700px;
+    min-height: 640px;
   }
 }
 
 @media (max-width: 768px) {
   .cover__background {
     max-width: 768px;
-    min-height: 600px;
+    min-height: 480px;
   }
 }
 

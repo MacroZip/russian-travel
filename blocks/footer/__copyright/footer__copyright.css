@@ -10,15 +10,15 @@
   text-decoration: none;
 }
 
-@media (max-width: 1024px) {
-  .footer__copyright {
-    margin: auto 0 auto auto;
-  }
+.footer__copyright:hover {
+  opacity: .8;
+  transition: opacity .2s linear;
+  cursor: pointer;
 }
 
 @media (max-width: 705px) {
   .footer__copyright {
-    margin: 48px 0 auto;
+    margin: 0 0 auto;
     font-size: 14px;
     line-height: 14px;
   }

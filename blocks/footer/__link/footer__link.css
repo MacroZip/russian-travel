@@ -10,11 +10,17 @@
   text-decoration: none;
 }
 
+.footer__link:hover {
+  opacity: .8;
+  transition: opacity .2s linear;
+  cursor: pointer;
+}
+
 .footer__link:nth-child(5) {
   margin-right: 0;
 }
 
-@media screen and (max-width: 705px) {
+@media (max-width: 705px) {
   .footer__link {
     margin-right: 0px;
     margin-bottom: 32px;
@@ -22,6 +28,6 @@
     line-height: 24px;
   }
   .footer__link:nth-child(5) {
-    margin-bottom: 0px;
+    margin-bottom: 48px;
   }
 }

@@ -1,6 +1,6 @@
 .cover__title {
-  margin: auto;
-  padding-top: 245px;
+  display: flex;
+  margin: 16px;
   max-width: 560px;
   font-weight: 900;
   font-size: 72px;
@@ -12,23 +12,15 @@
 
 @media (max-width: 536px) {
   .cover__title {
-    margin: auto;
-    padding-top: 120px;
     max-width: 300px;
     font-size: 40px;
     line-height: 44px;
   }
 }
 
-@media (max-width: 360px) {
-  .cover__title {
-    padding-top: 26px;
-  }
-}
-
 @media (max-width:320px) {
   .cover__title {
-    padding-top: 33px;
+    margin: 8px;
     max-width:  250px;
     font-size: 32px;
     line-height: 35px;

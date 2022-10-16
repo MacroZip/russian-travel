@@ -1,5 +1,5 @@
 .place__url-heading {
-  padding-bottom: 12px;
+  padding-bottom: 9px;
   max-width: 456px;
   font-family: 'Inter', 'Arial', 'Helvetica', sans-serif;
   font-style: normal;
@@ -8,10 +8,17 @@
   line-height: 20.4px;
   letter-spacing: 2px;
   color: #AAAAAA;
+  text-transform: uppercase;
 }
 
-@media (max-width:768px) {
+@media (max-width: 768px) {
   .place__url-heading {
       line-height: 12px;
+  }
+}
+
+@media (max-width: 320px) {
+  .place__url-heading {
+    padding-bottom: 12px;
   }
 }

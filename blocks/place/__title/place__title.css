@@ -1,7 +1,7 @@
 .place__title {
   margin: 0;
   align-self: flex-end;
-  max-width: 460px;
+  max-width: 384px;
   font-family: 'Inter', 'Arial', 'Helvetica', sans-serif;
   font-style: normal;
   font-weight: 900;
@@ -9,18 +9,37 @@
   line-height: 76px;
 }
 
-@media (max-width:768px) {
+@media (max-width: 1024px) {
   .place__title {
-    max-width: 340px;
-    min-height: 46px;
+    max-width: 384px;
+  }
+}
+
+@media (max-width: 857px) {
+  .place__title {
+    max-width: 330px;
     font-size: 42px;
     line-height: 46px;
   }
 }
 
-@media (max-width:460px) {
+@media (max-width: 767px) {
+  .place__title {
+    margin-left: 15px;
+  }
+}
+
+@media (max-width: 460px) {
   .place__title {
     font-size: 32px;
     line-height: 35px;
+  }
+}
+
+@media (max-width: 404px) {
+  .place__title {
+    margin-left: 16px;
+    max-width: 263px;
+    /* max-height: 35px; */
   }
 }
