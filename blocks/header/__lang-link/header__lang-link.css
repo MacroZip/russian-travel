@@ -21,7 +21,7 @@
   margin: 0;
 }
 
-@media (max-width: 320px) {
+@media (max-width: 340px) {
   .header__lang-link {
     margin-right: 15px;
     max-width: 22px;

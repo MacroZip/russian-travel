@@ -1,5 +1,4 @@
 .cover__subtitle {
-  display: flex;
   margin: 16px;
   max-width: 360px;
   font-weight: 400;
@@ -14,8 +13,7 @@
 @media (max-width:360px) {
   .cover__subtitle {
     margin: 8px;
-    white-space: pre-line;
-    max-width:  288px;
+    max-width:  273px;
     font-size: 14px;
     line-height: 16px;
   }

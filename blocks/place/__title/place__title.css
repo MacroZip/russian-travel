@@ -9,12 +9,6 @@
   line-height: 76px;
 }
 
-@media (max-width: 1024px) {
-  .place__title {
-    max-width: 384px;
-  }
-}
-
 @media (max-width: 857px) {
   .place__title {
     max-width: 330px;

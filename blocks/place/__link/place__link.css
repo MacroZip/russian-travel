@@ -1,6 +1,6 @@
 .place__link {
   display: block;
-  max-width: 456px;
+  max-width: fit-content;
   font-family: 'Inter', 'Arial', 'Helvetica', sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -11,20 +11,13 @@
 }
 
 .place__link:hover {
-  opacity: .5;
+  opacity: .8;
   transition: opacity .2s linear;
   cursor: pointer;
-}
-
-@media (max-width: 768px) {
-  .place__link {
-    max-width: 352px;
-  }
 }
 
 @media (max-width: 460px) {
   .place__link {
     margin-left: 0;
-    max-width: 235px;
   }
 }
